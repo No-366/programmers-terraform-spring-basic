@@ -1,3 +1,5 @@
 spring:
   application:
     name: back
+  profiles:
+    include: secret #접미어를 기준으로 가져옴
